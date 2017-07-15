@@ -1,10 +1,6 @@
 
 /*
 Programmer: John Zavisa
-Assignment: Open Lab 4
-Class: CSCI3110
-Course Instructor: Dr. Dong
-Due Date: 4:00AM, Monday, 3/20/17
 Description: This program implements polymorphism in order to allow traversal through list of movies and books
 and also reads in the data originally from a given text file. The user can check out books and movies, return books and movies,
 list them and inquire about them.
