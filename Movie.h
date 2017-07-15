@@ -1,19 +1,10 @@
 
 /*
-* Author: Zhijiang Dong & John Zavisa
-* Date: Jan 15, 2007
-* File: Movie.h
-* As a part of the 3110 assignment, this file
+* Author: John Zavisa
+* 
+* This file
 * defines a class Movie, which will be sold in
 * a store
-*/
-
-
-/*
-* No methods are provided to modify movie information.
-* Movie information should be stable, whch means whenever
-* you get a movie object, you are not supposed to
-* change movie information such as title, and director.
 */
 
 #ifndef MOVIE_H
@@ -37,7 +28,7 @@ public:
 
 	//This function returns a dynamically created StoreItem object
 	//which is created from a string.
-	//The string info must be of the line format specificed in
+	//The string info is be of the line format specificed in
 	//inventory.txt
 	Movie* createFromString(const string info) override;
 
